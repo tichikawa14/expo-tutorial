@@ -32,11 +32,9 @@ export default ({ config }) => ({
   ios: {
     ...config.ios,
     bundleIdentifier: getUniqueIdentifier(),
-    buildNumber: '1'
   },
   android: {
     ...config.android,
     package: getUniqueIdentifier(),
-    versionCode: 1
   },
 });
